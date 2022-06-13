@@ -1,0 +1,55 @@
+:root {
+  --clr-white: hsla(0, 0%, 100%, 1);
+  --clr-gray: hsla(0, 0%, 96%, 1);
+  --clr-gray-border: hsla(0, 0%, 90%, 1);
+  --clr-gray-dark: hsla(0, 0%, 60%, 1);
+  --clr-purple: hsla(249, 58%, 49%, 1);
+  --clr-blue-purple: hsla(233, 91%, 69%, 1);
+  --clr-dark-2: hsla(241, 24%, 12%, 1);
+  --clr-dark: hsla(0, 0%, 20%, 1);
+  --clr-black: hsla(0, 0%, 0%, 1);
+  --clr-green: hsla(96, 94%, 35%, 1);
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}

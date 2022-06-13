@@ -1,0 +1,37 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 145px;
+    border: 1px solid var(--clr-gray-border);
+    border-radius: 1rem;
+    padding: 1.4em;
+}
+
+.box--title {
+    text-transform: capitalize;
+    color: var(--clr-dark-2);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.box--transaction {
+    font-size: 4.8rem;
+    font-weight: 500;
+    color: var(--clr-blue-purple);
+}
+
+.box--period {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--clr-gray-dark);
+}
+
+@media (min-width: 400px) {
+    .box {
+        width: 178px;
+    }
+}

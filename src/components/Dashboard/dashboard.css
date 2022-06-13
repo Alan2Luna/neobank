@@ -1,0 +1,16 @@
+.dashboard {
+    padding: 2.4rem;
+}
+
+@media (min-width: 890px) {
+    .dashboard {
+        display: grid;
+        grid-template-areas:
+        "boxes area area"
+        "pie area area";
+        padding: 3rem 1.4rem;
+        gap: 1.5rem 2.2rem;
+        max-width: 1282px;
+        margin: 0 auto;
+    }
+}

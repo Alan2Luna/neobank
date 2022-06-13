@@ -1,0 +1,11 @@
+.sub-menu {
+    background-color: var(--clr-gray);
+    font-size: 1.4rem;
+    color: var(--clr-black);
+    height: 56px;
+    padding: 18px 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    max-width: 1282px;
+    margin: 0 auto;
+}

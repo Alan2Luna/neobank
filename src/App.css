@@ -1,0 +1,52 @@
+.box--container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 388px;
+}
+
+.pie-chart--container {
+    height: 480px;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid var(--clr-gray-border);
+    border-radius: 1rem;
+}
+
+.pie-chart--header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pie-chart--title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--clr-dark);
+}
+
+.elipses-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--clr-gray-border);
+    border-radius: 4px;
+}
+
+/*     REVENUE     */
+
+
+@media (min-width: 890px) {
+    .box--container {
+        grid-area: boxes;
+    }
+
+    .pie-chart--container {
+        max-width: 388px;
+        grid-area: pie;
+        margin-top: 0;
+        padding: 3.2rem;
+    }
+
+}

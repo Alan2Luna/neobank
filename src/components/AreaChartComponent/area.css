@@ -1,0 +1,9 @@
+.custom-tooltip {
+    display: flex;
+    flex-direction: column;
+    padding: .6rem;
+    gap: .5rem;
+    background-color: white;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 10px 5px rgb(70 68 68 / 50%);
+}

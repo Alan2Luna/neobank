@@ -1,0 +1,7 @@
+
+.logo--text {
+    color: var(--clr-purple);
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
